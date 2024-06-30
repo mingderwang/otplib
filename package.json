@@ -6,7 +6,8 @@
   "description": "",
   "scripts": {
     "build": "bun run build.mjs",
-    "prepublishOnly": "bun run build"
+    "prepublishOnly": "bun test && bun run build",
+    "test": "bun test"
   },
   "files": [
     "dist"
@@ -16,13 +17,13 @@
     "test"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/wobsoriano/pkg-name#readme",
+  "homepage": "https://github.com/mingderwang/otp-fido-lib#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wobsoriano/pkg-name.git"
+    "url": "git+https://github.com/mingderwang/potp-fido-lib.git"
   },
-  "bugs": "https://github.com/wobsoriano/pkg-name/issues",
-  "author": "Robert Soriano <sorianorobertc@gmail.com>",
+  "bugs": "https://github.com/mingderwang/otp-fido-lib/issues",
+  "author": "Ming-der Wang <mingderwang@gmail.com>",
   "devDependencies": {
     "bun-plugin-dts": "^0.2.1",
     "@types/bun": "^1.0.0",

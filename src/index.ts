@@ -1,2 +1,11 @@
-export const one = 1
-export const two = 2
+export class MyClass {
+    private value: number;
+
+    constructor(value: number) {
+        this.value = value;
+    }
+
+    getValue(): number {
+        return this.value;
+    }
+}
